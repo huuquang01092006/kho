@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    height: 100px;
+    background-color: blue;
+    line-height: 50px;
+    color: white;
+    text-indent: 100px;
+}
+.header.text{
+    word-spacing: 20px;
+}
+.footer{
+    background-color: rgb(227, 226, 226);
+    text-align: center;
+    height: 50px;
+    line-height: 50px; 
+}
+.mytable table {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
