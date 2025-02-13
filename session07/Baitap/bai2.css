@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    background-color: #e9e8e8;
+    margin: 20px;
+    
+}
+
+/* Hộp chứa nội dung */
+.box {
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    width: 300px;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Tiêu đề */
+h2 {
+    font-size: 24px;
+    color: #C8102E;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Làm nổi bật dòng thứ hai của tiêu đề */
+.highlight {
+    display: block;
+    font-size: 22px;
+}
+
+/* Nội dung mô tả */
+p {
+    font-size: 18px;
+    color: #2B2D42;
+    margin-top: 10px;
+}
