@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+table{
+    margin: 20px;
+}
+
+.date p{
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.7;
+    padding-top: 20px;
+    border-top: 1px solid rgb(225, 225, 225);
+}
+.title p{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.image img{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    width: 400px;
+}
+.content p{
+    padding: 20px;
+    text-align: justify;
+    line-height: 30px;
+    opacity: 0.6;
+    font-size: 14px;
+    overflow-wrap: break-word;
+}
+.button{
+    background-color: white;
+    font-weight: 800;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    left: 150px;
+    opacity: 0.6;
+}
+.border{
+    border-left: 1px solid rgb(225, 225, 225);
+    padding-left: 20px;
+    border-right: 2px solid rgb(0, 0, 0);
+    padding-right: 30px;
+}
+.border2{
+    padding-right: 40px;
+}
