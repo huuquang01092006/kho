@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+body{
+    margin: 20px;
+}
+.head{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    text-align: center;
+}
+.head .logo{
+    line-height: 70px;
+    color: white;
+}
+.head span>a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.body{
+    background-color: rgb(243, 240, 240);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body .content{
+    text-align: center;
+    line-height: 30px;
+}
+.body .content h2{
+    padding-bottom: 20px;
+}
+.body .content .title{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.body .content .button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+}
+.body2{
+    text-align: center;
+    padding: 20px;
+    height: 220px;
+}
+.body2 .content1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.body2 .content1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.body2 .content1 .text{
+    background-color: rgb(203, 203, 203);
+    width: 100px;
+    height: 70px;
+    border-radius: 4px;
+    margin-right: 10px;
+    opacity: 0.4;
+}
+.body2 .content2{
+    display: flex;
+    justify-content: center;
+}
+.body2 .content2 .text{
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    height: 50px;
+    line-height: 50px; 
+    color: white;
+}
+.footer p{
+    opacity: 0.4;
+}
+.body3{
+    background-color: rgb(243, 240, 240);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body3 .content{
+    text-align: center;
+    line-height: 30px;
+}
+.body3 .content h2{
+    padding-bottom: 20px;
+}
+.body3 .content .title{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
