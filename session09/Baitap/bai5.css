@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    margin: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+.header .text{
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+.body{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+.body .text{
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+}
