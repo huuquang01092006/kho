@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+body{
+    margin: 20px;
+}
+.container{
+    background-color: rgb(244, 233, 189);
+    width: 1300px;
+    height: 570px;
+}
+.container .header{
+    height: 80px;
+    padding-left: 900px;
+}
+.container .header span>a{
+    color: black;
+    font-size: 25px;
+    padding-right: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 80px;
+}
+.container .body{
+    display: flex;
+    position: relative;
+}
+.container .body .image{
+    display: flex;
+    margin-top: 100px;
+}
+.container .body .image1{
+    position: relative;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    left: 840px;
+}
+.container .body .image2{
+    position: relative;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    bottom: 5px;
+    left: 600px;
+    
+}
+.container .body .text{
+    position: relative;
+    top: 100px;
+    right: 300px;
+}
+.container .body .text h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.container .button{
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+    width: 280px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 25px;
+}
