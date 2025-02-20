@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+.container{
+    border: 10px solid #E0E0E0;
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E0E0;
+}
