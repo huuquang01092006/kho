@@ -1,0 +1,12 @@
+let str1 = Number("5");
+let str2 = Number("-1");
+let str3 = Number("hello");
+let num1 = String(55);
+let num2 = String(-1);
+let num3 = String(0);
+console.log(typeof str1);
+console.log(typeof str2);
+console.log(typeof str3);
+console.log(typeof num1);
+console.log(typeof num2);
+console.log(typeof num3);
