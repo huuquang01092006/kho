@@ -15,4 +15,4 @@ if (a != 0) {
         let x2 = (-b - Math.sqrt(delta)) / (2 * a);
         console.log("x1 = " + x1 + ", x2 = " + x2);
     }
-}
+} 
