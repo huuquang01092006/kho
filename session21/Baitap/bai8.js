@@ -1,6 +1,6 @@
 let a;
 let b;
-let c;
+let c;                             
 for (let i = 100; i <= 999; i++){
     let str = i.toString();
     a = Number(str[0]);
